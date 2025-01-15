@@ -1,0 +1,22 @@
+{
+    "version": "2.13.4B",
+    "description": "一个简单轻量的鼠标手势软件（已存档）",
+    "homepage": "https://shuax.com/project/mouseinc/",
+    "license": "Unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/GeorgeDong32/scoopgd/releases/download/MouseInc/MouseInc-2.13.4B.zip",
+            "hash": "3BC741471134BA261E278761EB6222581246E05227EDD5F9A0644848C97F5646",
+            "extract_dir": "mouseinc-windows"
+        },
+        "32bit": {
+            "url": "https://github.com/GeorgeDong32/scoopgd/releases/download/MouseInc/MouseInc-2.13.4B.zip",
+            "hash": "3BC741471134BA261E278761EB6222581246E05227EDD5F9A0644848C97F5646",
+            "extract_dir": "mouseinc-windows"
+        }
+    },
+    "bin": "MouseInc.exe",
+    "persist": [
+        "MouseInc.json"
+    ]
+}
