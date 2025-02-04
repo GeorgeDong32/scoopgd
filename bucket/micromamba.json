@@ -9,8 +9,12 @@
             "hash": "f1ebcf6f397070cd4e0eba99fdaa6084cb7bed7ac4d51e2109ee3f15df1a2199"
         }
     },
-    "bin": "bin\\micromamba.exe",
-    "persist": ["envs", "condabin", "pkgs", "Scripts"],
+    "post_install": "New-Item -Path \"$dir\\base\" -ItemType Directory -Force | Out-Null",
+    "env_set": {
+        "MAMBA_ROOT_PREFIX": "$dir\\base",
+        "MAMBA_EXE": "$dir\\micromamba.exe"
+    },
+    "persist": ["base"],
     "checkver": {
         "url": "https://api.anaconda.org/release/conda-forge/micromamba/latest",
         "regex": "win-64/micromamba-([\\d.]+([\\w-]+)).tar.bz2"
