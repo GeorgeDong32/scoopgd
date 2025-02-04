@@ -1,10 +1,10 @@
 {
-    "version": "6.5.0.0",
+    "version": "6.6.0.0",
     "description": "通用输入法状态（中/英、全/半角、标点、大写）跟踪提示",
     "homepage": "https://imtip.aardio.com/",
     "license": "MIT",
     "url": "https://imtip.aardio.com/update/ImTip.7z",
-    "hash": "8be676aa24e0fa8ceae597fae11999ad39a9f80d5d0f4df01c15e7f3d15349f9",
+    "hash": "d70bdd67d6f2657014e6b740035eb2620a9ea20dbba719b8f76fc9de81ca9108",
     "bin": "ImTip.exe",
     "shortcuts": [
         [
