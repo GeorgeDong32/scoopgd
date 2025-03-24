@@ -4,7 +4,7 @@
     "license": "LPPL,GPL2",
     "version": "2025",
     "url": "http://mirror.ctan.org/systems/texlive/tlnet/install-tl.zip",
-    "hash": "sha512:4571a8b236fa7c27189b7d0b9da7f7bfa52baf549d0c702cee2d80182f41870ee40d6a9cf348507a762646a56c4cffc55a5225215233ad78be2c453e1394081c",
+    "hash": "sha512:ba68d48e63e9defbaf67bb7e1e1bc015dd290f4d6d43efa98bacbd0a1e3c83bc50fb51fc170867b279d0e2bbe8c12dbf3f46a1704b3e9a4c9043f6b343b56740",
     "installer": {
         "script": [
             "Write-Host 'Invoking TeX Live installer...' -ForegroundColor DarkCyan",
