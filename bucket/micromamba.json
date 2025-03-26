@@ -13,12 +13,12 @@
     "persist": ["envs", "condabin", "pkgs", "Scripts"],
     "checkver": {
         "url": "https://anaconda.org/conda-forge/micromamba/files",
-        "regex": "win-64/micromamba-([\\d.-]+)\\.tar"
+        "regex": "win-64/micromamba-([\\d.]+)-(\\d+)\\.tar"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://anaconda.org/conda-forge/micromamba/2.0.6/download/win-64/micromamba-$version.tar.bz2"
+                "url": "https://anaconda.org/conda-forge/micromamba/$match1/download/win-64/micromamba-$match1-$match2.tar.bz2"
             }
         }
     }
