@@ -14,7 +14,7 @@
     },
     "installer": {
         "script": [
-            "Expand-7zipArchive \"$dir\\Cherry-Studio-$version-setup.exe\" \"$dir\\temp\\\" -Removal",
+            "Expand-7zipArchive \"$dir\\Cherry-Studio-$version-x64-setup.exe\" \"$dir\\temp\\\" -Removal",
             "Expand-7zipArchive \"$dir\\temp\\`$PLUGINSDIR\\app-64.7z\" \"$dir\\\" -Removal",
             "Remove-Item \"$dir\\temp\" -Recurse",
             "$appDataPath = \"$env:APPDATA\\CherryStudio\"",
