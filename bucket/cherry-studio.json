@@ -1,5 +1,5 @@
 {
-    "version": "1.6.5",
+    "version": "1.6.6",
     "description": "A desktop client that supports for multiple LLM providers",
     "homepage": "https://cherry-ai.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.6.5/Cherry-Studio-1.6.5-x64-setup.exe",
-            "hash": "f8a4e724e65d5e22b39b75ee732c13dee34a34f9a2151f449eda92b48530203b"
+            "url": "https://github.com/CherryHQ/cherry-studio/releases/download/v1.6.6/Cherry-Studio-1.6.6-x64-setup.exe",
+            "hash": "aba17ee7b91f1acf00457988d47048488af3f138580b56010f832311838a0aed"
         }
     },
     "installer": {
