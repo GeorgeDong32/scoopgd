@@ -20,7 +20,6 @@
             "hash": "eb0afdc20c1f55c40a6c97a1a45cf1b5799d079a3ce407826cf25fb077509937"
         }
     },
-    "depends": "sing-box",
     "bin": "GUI.for.SingBox.exe",
     "shortcuts": [
         [
