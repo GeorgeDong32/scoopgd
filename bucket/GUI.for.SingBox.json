@@ -21,13 +21,8 @@
         }
     },
     "bin": "GUI.for.SingBox.exe",
-    "shortcuts": [
-        [
-            "GUI.for.SingBox.exe",
-            "GUI.for.SingBox"
-        ]
-    ],
-    "persist": "data",
+    "shortcuts": [["GUI.for.SingBox.exe", "GUI.for.SingBox"]],
+    "persist": ["data", "singbox"],
     "checkver": {
         "github": "https://github.com/GUI-for-Cores/GUI.for.SingBox"
     },
