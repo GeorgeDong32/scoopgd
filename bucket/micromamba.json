@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/mamba-org/mamba",
-    "version": "2.6.2",
+    "version": "2.7.0",
     "license": "BSD-3-Clause",
     "description": "The Fast Cross-Platform Package Manager",
     "architecture": {
         "64bit": {
-            "url": "https://anaconda.org/conda-forge/micromamba/2.6.2/download/win-64/micromamba-2.6.2-0.tar.bz2",
-            "hash": "b35d8303eb9d62b77a19b35ab4503c1698501a2783cfccae826f186e04adbbaa"
+            "url": "https://anaconda.org/conda-forge/micromamba/2.7.0/download/win-64/micromamba-2.7.0-0.tar.bz2",
+            "hash": "d5e1309923baab8434e890a956816221c40cae08d0a8b49276df77c6ae8d3e6d"
         }
     },
     "bin": "Library\\bin\\micromamba.exe",
